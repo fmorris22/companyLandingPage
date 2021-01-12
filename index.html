@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Salt & Soil</title>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="company-name">
+        <h1>Salt & Soil</h1>
+    </div>
+
+    <header id="header" class="text-style">
+        <img id="header-img" src="https://images.pexels.com/photos/1565312/pexels-photo-1565312.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+        <nav id="nav-bar">
+            <a href="#locations" class="nav-link">Locations</a>
+            <a href="#offerings" class="nav-link">Offerings</a>
+            <a href="#rates" class="nav-link">Rates</a>
+    </header>
+
+    <div class="additionalContent">
+        <img class="additionalImg" src="https://images.pexels.com/photos/3851696/pexels-photo-3851696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        <div class="slogan">
+            <p>Rest.</p>
+            <p>Reset.</p>
+            <p>Reconnect.</p>
+        </div>
+        <img class="additionalImg" src="https://images.pexels.com/photos/3764568/pexels-photo-3764568.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+    </div>
+
+    <main id="main">
+        <article id="video-container">
+            <video id="video" controls preload>
+    <source src="https://vod-progressive.akamaized.net/exp=1610414751~acl=%2A%2F722783954.mp4%2A~hmac=4c4c5853fa5f12e24ce32e982bdd1591c913f23c2a260fbf29f564afdf8784e7/vimeo-prod-skyfire-std-us/01/2150/8/210753542/722783954.mp4?filename=Pexels+Videos+2881.mp4" type="video/mp4">
+</video>
+        </article>
+
+        <div id="locations">
+            <h2 class="text-style">Locations</h2>
+            <ul class="text-width">
+                <li class="second-font">Maine</li>
+                <li class="second-font">New Hampshire</li>
+                <li class="second-font">Vermont</li>
+            </ul>
+        </div>
+
+        <div id="offerings">
+            <h2 class="text-style">Offerings</h2>
+            <p class="second-font text-width">We offer a retreat at which you can stay for as little as an hour, or as long as a month. Activities include guided yoga sessions, facials, body treatments, various spa experiences, massages, physical therapy, nutritional classes, and wellness
+                classes. All activities are available for individuals, pairs, and groups. Feel free to visit us and walk the grounds, and ask us about our take-home spa kits!
+        </div>
+
+        <div id="rates">
+            <h2 class="text-style">Rates</h2>
+            <ul class="text-width">
+                <li class="second-font">Explore the grounds and gardens for free. There are wonderful picnic and meditation spots throughout!</li>
+                <li class="second-font">Flat fee for educational classes: $25</li>
+                <li class="second-font">25 minute massages: $25</li>
+                <li class="second-font">60 minute massages: $50</li>
+                <li class="second-font">All spa treatments and facials are customizable and start at a flat rate of $20. Add $5 for every 25 minutes.</li>
+                <li class="second-font">Introspective Day: $50-$100; Weekend: $100-$200</li>
+                <li class="second-font">Partner's Paradise Day: $75-$125; Weekend: $125-$225</li>
+                <li class="second-font">Group Gathering flat reservation deposit: $20. Additional $25 per person for a day; $50 per person for a weekend.</li>
+        </div>
+
+        <form id="form" class="text-style" action="https://www.freecodecamp.com/email-submit">
+            <fieldset id="email-fieldset">
+                <label for="email">To sign up for our quarterly newsletter, please submit your email address: </label>
+                <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="example@gmail.com">
+                <input type="submit" value="Sign me up!" id="submit">
+        </form>
+    </main>
+</body>
